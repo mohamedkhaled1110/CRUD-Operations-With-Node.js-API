@@ -13,7 +13,6 @@ app.use(require('./service/deleteproduct'));
 app.get('*',(req,res)=>{
     res.send('404 page Not Found');
 })
-// Ipconfig2020@@
 
 app.listen(3000,()=>{
 
